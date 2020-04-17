@@ -2,10 +2,10 @@ import bisect
 
 from scipy.spatial.distance import euclidean
 
-from common import (NO_QUADRANT, NORTH_EAST, NORTH_WEST, SOUTH_EAST,
-                    SOUTH_WEST, Boundary, Point, belongs, compute_knn,
-                    intersects, quadrants)
-from node import TreeNode
+from .common import (NO_QUADRANT, NORTH_EAST, NORTH_WEST, SOUTH_EAST,
+                     SOUTH_WEST, Boundary, Point, belongs, compute_knn,
+                     intersects, quadrants)
+from .node import TreeNode
 
 # Constants for tuple access optimization
 BOUNDARY = 0
